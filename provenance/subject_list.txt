@@ -1,0 +1,8 @@
+UCI SMNI large split — 20 subjects (10 alcoholic, 10 control)
+Alcoholic (co2a...):
+  co2a0000364 co2a0000365 co2a0000368 co2a0000369 co2a0000370
+  co2a0000371 co2a0000372 co2a0000375 co2a0000377 co2a0000378
+Control (co2c...):
+  co2c0000337 co2c0000338 co2c0000339 co2c0000340 co2c0000341
+  co2c0000342 co2c0000344 co2c0000345 co2c0000346 co2c0000347
+Condition averaged: S2 match (20 trials/subject: 10 TRAIN + 10 TEST)

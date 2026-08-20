@@ -1,0 +1,7 @@
+model,protocol,clf__max_depth,clf__min_samples_leaf,clf__n_estimators,snr__n_channels,clf__C,clf__gamma,clf__alpha,clf__hidden_layer_sizes
+Random Forest,LOOCV,2.0,1.0,80.0,24,,,,
+Random Forest,10-fold,2.0,1.0,80.0,8,,,,
+SVM (RBF),LOOCV,,,,8,10.0,scale,,
+SVM (RBF),10-fold,,,,12,0.1,scale,,
+MLP,LOOCV,,,,16,,,0.0001,[8]
+MLP,10-fold,,,,8,,,0.0001,[8]

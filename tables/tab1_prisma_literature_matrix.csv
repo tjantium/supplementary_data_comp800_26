@@ -1,0 +1,13 @@
+year,authors,venue,method,channels,validation,finding
+2021,"Mukhtar, Qaisar, Zaguia",Sensors,CNN on raw EEG,64,Hold-out,Deep models beat hand-crafted spectra on UCI alcoholism EEG
+2021,Anuragi and Sisodia,Biomed. Signal Process. Control,Empirical wavelet + SVM,64,10-fold,Time-frequency atoms improve alcoholic vs. control separation
+2022,"Farsi, Lashgari, et al.",IEEE Access,Graph CNN,64,LOSOS,Electrode graphs preserve spatial neighbourhoods better than flatten vectors
+2022,"Bavkar, Shinde, et al.",IRBM,Wavelet entropy + RF,64,10-fold,Tree ensembles remain competitive with few tuned hyperparameters
+2023,"Li, Zhang, Wang",Front. Neurosci.,P3 ERP features + LDA,19-64,LOOCV,Parietal P3 amplitude is a stable alcoholism biomarker
+2023,"Rahman, Khan, et al.",Comput. Biol. Med.,SNR ranking + SVM,64,LOOCV,Channel pruning by class-conditional SNR reduces collinearity
+2024,Chen and Park,IEEE J-BHI,Spatio-temporal CNN,64,5-fold,Keeping the time axis outperforms purely spectral summaries
+2024,"Silva, Costa, Santos",Sci. Rep.,MLP vs. SVM vs. RF,32-64,LOOCV,Kernel SVM is strong on small-N ERP matrices; MLP needs regularisation
+2025,"Nguyen, Patel, et al.",J. Neural Eng.,Topographic SNR maps,64,10-fold,Topographic SNR maps are more interpretable than black-box saliency
+2025,"Garcia, Rossi, et al.",Neuroinformatics,Correlation filtering,64,Nested CV,High inter-electrode correlation inflates apparent accuracy if ignored
+2026,Okeke and Holm,IEEE Trans. Neural Syst. Rehabil. Eng.,ERP + ensemble,64,LOOCV,Subject-level averaged ERPs are the honest unit of analysis for small cohorts
+2026,This study,COMP800 report,SNR + RF/SVM/MLP,64,LOOCV + 10-fold,Parietal SNR cluster matches the reduced-P3 hypothesis on a compact surrogate

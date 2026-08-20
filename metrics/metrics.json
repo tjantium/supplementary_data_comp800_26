@@ -1,0 +1,167 @@
+{
+  "results": [
+    {
+      "model": "Random Forest",
+      "protocol": "LOOCV",
+      "metrics": {
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.7,
+        "f1": 0.5833333333333334,
+        "roc_auc": 0.48
+      },
+      "confusion_matrix": [
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "modal_inner_params": {
+        "clf__max_depth": 2,
+        "clf__min_samples_leaf": 1,
+        "clf__n_estimators": 80,
+        "snr__n_channels": 24
+      }
+    },
+    {
+      "model": "Random Forest",
+      "protocol": "10-fold",
+      "metrics": {
+        "accuracy": 0.45,
+        "precision": 0.46153846153846156,
+        "recall": 0.6,
+        "f1": 0.5217391304347826,
+        "roc_auc": 0.53
+      },
+      "confusion_matrix": [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "modal_inner_params": {
+        "clf__max_depth": 2,
+        "clf__min_samples_leaf": 1,
+        "clf__n_estimators": 80,
+        "snr__n_channels": 8
+      }
+    },
+    {
+      "model": "SVM (RBF)",
+      "protocol": "LOOCV",
+      "metrics": {
+        "accuracy": 0.7,
+        "precision": 0.7,
+        "recall": 0.7,
+        "f1": 0.7,
+        "roc_auc": 0.7600000000000001
+      },
+      "confusion_matrix": [
+        [
+          7,
+          3
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "modal_inner_params": {
+        "clf__C": 10.0,
+        "clf__gamma": "scale",
+        "snr__n_channels": 8
+      }
+    },
+    {
+      "model": "SVM (RBF)",
+      "protocol": "10-fold",
+      "metrics": {
+        "accuracy": 0.55,
+        "precision": 0.5454545454545454,
+        "recall": 0.6,
+        "f1": 0.5714285714285714,
+        "roc_auc": 0.49000000000000005
+      },
+      "confusion_matrix": [
+        [
+          5,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "modal_inner_params": {
+        "clf__C": 0.1,
+        "clf__gamma": "scale",
+        "snr__n_channels": 12
+      }
+    },
+    {
+      "model": "MLP",
+      "protocol": "LOOCV",
+      "metrics": {
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5,
+        "roc_auc": 0.52
+      },
+      "confusion_matrix": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "modal_inner_params": {
+        "clf__alpha": 0.0001,
+        "clf__hidden_layer_sizes": [
+          8
+        ],
+        "snr__n_channels": 16
+      }
+    },
+    {
+      "model": "MLP",
+      "protocol": "10-fold",
+      "metrics": {
+        "accuracy": 0.55,
+        "precision": 0.5454545454545454,
+        "recall": 0.6,
+        "f1": 0.5714285714285714,
+        "roc_auc": 0.45999999999999996
+      },
+      "confusion_matrix": [
+        [
+          5,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "modal_inner_params": {
+        "clf__alpha": 0.0001,
+        "clf__hidden_layer_sizes": [
+          8
+        ],
+        "snr__n_channels": 8
+      }
+    }
+  ],
+  "nested_tuning": true
+}

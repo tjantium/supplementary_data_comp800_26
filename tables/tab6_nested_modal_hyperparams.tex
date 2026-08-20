@@ -1,0 +1,17 @@
+\begin{table}[!t]
+\centering
+\caption{Most frequent inner-loop hyperparameters chosen across outer CV folds.}
+\label{tab:hparams}
+\begin{tabular}{lccccccccc}
+\hline
+\textbf{model} & \textbf{protocol} & \textbf{clf\_\_max\_depth} & \textbf{clf\_\_min\_samples\_leaf} & \textbf{clf\_\_n\_estimators} & \textbf{snr\_\_n\_channels} & \textbf{clf\_\_C} & \textbf{clf\_\_gamma} & \textbf{clf\_\_alpha} & \textbf{clf\_\_hidden\_layer\_sizes} \\
+\hline
+Random Forest & LOOCV & 2.000 & 1.000 & 80.000 & 24 & nan & nan & nan & nan \\
+Random Forest & 10-fold & 2.000 & 1.000 & 80.000 & 8 & nan & nan & nan & nan \\
+SVM (RBF) & LOOCV & nan & nan & nan & 8 & 10.000 & scale & nan & nan \\
+SVM (RBF) & 10-fold & nan & nan & nan & 12 & 0.100 & scale & nan & nan \\
+MLP & LOOCV & nan & nan & nan & 16 & nan & nan & 0.000 & [8] \\
+MLP & 10-fold & nan & nan & nan & 8 & nan & nan & 0.000 & [8] \\
+\hline
+\end{tabular}
+\end{table}

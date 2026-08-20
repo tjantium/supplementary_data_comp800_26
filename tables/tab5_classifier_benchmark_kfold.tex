@@ -1,0 +1,14 @@
+\begin{table}[!t]
+\centering
+\caption{Classifier benchmark under nested stratified k-fold cross-validation (inner grid search on each training partition).}
+\label{tab:kfold}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{model} & \textbf{protocol} & \textbf{accuracy} & \textbf{precision} & \textbf{recall} & \textbf{f1} & \textbf{roc\_auc} \\
+\hline
+Random Forest & 10-fold & 0.450 & 0.462 & 0.600 & 0.522 & 0.530 \\
+SVM (RBF) & 10-fold & 0.550 & 0.545 & 0.600 & 0.571 & 0.490 \\
+MLP & 10-fold & 0.550 & 0.545 & 0.600 & 0.571 & 0.460 \\
+\hline
+\end{tabular}
+\end{table}

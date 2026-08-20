@@ -1,0 +1,8 @@
+specification,value
+Spatial resolution,61 scalp channels (UCI SNOMEN; X/Y/nd dropped)
+Temporal resolution,"UCI SMNI S2-match ERP, 256 Hz"
+Epoch length,1.0 s
+Samples per epoch,256
+Feature vector,P3-window mean amplitude; nested SNR prune inside CV
+Class labels,"0 = control, 1 = alcoholic"
+SNR formula,|mu1 - mu0| / (sigma1 + sigma0)

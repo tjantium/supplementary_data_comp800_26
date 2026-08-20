@@ -1,0 +1,35 @@
+{
+  "source": "uci_smni_cmi",
+  "repository": "UCI ML Repository id=121",
+  "doi": "10.24432/C5TS3D",
+  "condition": "S2 match",
+  "n_subjects": 20,
+  "n_alcoholic": 10,
+  "n_control": 10,
+  "trials_averaged_per_subject": {
+    "co2a0000364": 20,
+    "co2a0000365": 20,
+    "co2a0000368": 20,
+    "co2a0000369": 20,
+    "co2a0000370": 20,
+    "co2a0000371": 20,
+    "co2a0000372": 20,
+    "co2a0000375": 20,
+    "co2a0000377": 20,
+    "co2a0000378": 20,
+    "co2c0000337": 20,
+    "co2c0000338": 20,
+    "co2c0000339": 20,
+    "co2c0000340": 20,
+    "co2c0000341": 20,
+    "co2c0000342": 20,
+    "co2c0000344": 20,
+    "co2c0000345": 20,
+    "co2c0000346": 20,
+    "co2c0000347": 20
+  },
+  "class_labels": {
+    "0": "control",
+    "1": "alcoholic"
+  }
+}

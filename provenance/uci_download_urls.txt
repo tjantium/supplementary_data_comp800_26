@@ -1,0 +1,13 @@
+UCI Machine Learning Repository — EEG Database (id=121)
+DOI: 10.24432/C5TS3D
+Mirror: https://kdd.ics.uci.edu/databases/eeg/
+
+SMNI_CMI_TRAIN.tar.gz
+  https://kdd.ics.uci.edu/databases/eeg/SMNI_CMI_TRAIN.tar.gz
+  SHA-256: 755746fb5137bad3ba3d6734107bd62353426e7201d401154e07233b303df31b
+  Size: 38494526 bytes
+
+SMNI_CMI_TEST.tar.gz
+  https://kdd.ics.uci.edu/databases/eeg/SMNI_CMI_TEST.tar.gz
+  SHA-256: 2f73a08d0a96302e9b8faac489a05da98bd70399128e039a031bb90abc96b130
+  Size: 38815160 bytes

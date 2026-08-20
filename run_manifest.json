@@ -1,0 +1,32 @@
+{
+  "run_id": "20260819-035617-25bf2d99",
+  "created_utc": "2026-08-19T03:56:17Z",
+  "status": "complete",
+  "git_sha": "c135a75",
+  "note": "UCI SMNI nested SNR + hyperparameter search",
+  "data": {
+    "source": "uci_smni_cmi",
+    "repository": "UCI ML Repository id=121",
+    "doi": "10.24432/C5TS3D",
+    "condition": "S2 match",
+    "n_subjects": 20,
+    "n_alcoholic": 10,
+    "n_control": 10,
+    "n_features_scalp": 61,
+    "epoch_shape": [20, 64, 256],
+    "sfreq_hz": 256.0
+  },
+  "methods": {
+    "feature": "P3-window mean amplitude (250-420 ms)",
+    "snr_formula": "|mu1 - mu0| / (sigma1 + sigma0)",
+    "classifiers": ["Random Forest", "SVM (RBF)", "MLP"],
+    "outer_cv": ["LOOCV", "10-fold stratified"],
+    "nested_tuning": true,
+    "inner_folds": 5,
+    "seed": 42
+  },
+  "supplementary_pack": {
+    "generated": "2026-08-19",
+    "purpose": "COMP800 secondary / supplementary material"
+  }
+}
