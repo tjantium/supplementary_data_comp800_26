@@ -169,5 +169,3 @@ To reproduce from source code, see [`REPRODUCE.md`](REPRODUCE.md).
 **Author:** Thiwanka Jayasiri · COMP800 Neuroinformatics, AUT  
 **Repository:** https://github.com/thiwankajayasiri/neuro_800_tasks  
 **Licence:** MIT (software); figures/tables in this pack may be reused with attribution per assignment guidelines.
-
-When submitting the assignment, zip this folder (e.g. `Jayasiri_COMP800_supplementary.zip`) and reference it in the report as *Supplementary Material*, citing run_id `20260819-035617-25bf2d99`.
