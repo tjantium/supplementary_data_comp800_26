@@ -167,5 +167,5 @@ To reproduce from source code, see [`REPRODUCE.md`](REPRODUCE.md).
 ## 8. Contact and licence
 
 **Author:** Thiwanka Jayasiri · COMP800 Neuroinformatics, AUT  
-**Repository:** https://github.com/thiwankajayasiri/neuro_800_tasks  
+**Repository:** https://github.com/tjantium/supplementary_data_comp800_26
 **Licence:** MIT (software); figures/tables in this pack may be reused with attribution per assignment guidelines.
